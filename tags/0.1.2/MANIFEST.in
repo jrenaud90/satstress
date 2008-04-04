@@ -1,0 +1,12 @@
+graft SatStress/Love/
+recursive-include input/ *.satellite *.grid
+recursive-include test/  *.pkl
+graft doc/
+prune doc/pdf/
+prune doc/old/
+exclude SatStress/CrossCutGraph.py
+exclude SatStress/Lineament.py
+include INSTALL
+include COPYING
+include CHANGELOG
+include Makefile
